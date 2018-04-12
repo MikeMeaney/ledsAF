@@ -38,8 +38,9 @@ void loop() {
     //PatsyStone.ALTwinkle(0x00, 0x88, 0xff, 10, LEDS, false);
     //PatsyStone.ALTwinkle(0xff, 0x44, 0, 10, LEDS, true);
 
-    //PatsyStone.ALbouncingColoredBalls(7, ballColors); //Inf. Loop
     PatsyStone.ALfire(55,120,15);
+    PatsyStone.ALbouncingColoredBalls(7, ballColors); //Inf. Loop
+
 
     // Now you're blinking! Play with which LED is blinking (1-11), the delays between, and the color.
 }
